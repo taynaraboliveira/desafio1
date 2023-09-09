@@ -28,6 +28,7 @@ for notas in listaNotas:
 alunos_aprovados = sum(1 for media in listaMedias if media >= 7.0)
 print(f"Número de alunos com média maior ou igual a 7.0: {alunos_aprovados}")
 
+
 # 2.Programa nome ao contrário em maiúsculas. Faça um programa que 
 #permita ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para 
 #frente utilizando somente letras maiúsculas. Dica: lembre−se que ao informar o nome o usuário 
@@ -45,6 +46,7 @@ nome = input("Digite o seu nome: ")
 nome_invertido = inverte_nome(nome)
 print(nome_invertido)
 
+
 # 3.Escreva um programa em Python que onde todos os valores em um dicionário são emitidos.
 # Se sim, imprima True. Caso contrário, imprima Falso.
 
@@ -58,6 +60,7 @@ if valores_emitidos:
    print("True")
 else:
    print("False")
+   
 
 # 4.Utilizando listas, faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
 #"Telefonou para a vítima?"

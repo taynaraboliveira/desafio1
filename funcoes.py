@@ -13,6 +13,7 @@ numero3 = float(input("Digite o terceiro número: "))
 resultado = soma_tres_numeros(numero1, numero2, numero3)
 print(f"A soma dos três números é: {resultado}")
 
+
 # 2.Reverso do número. Faça uma função que retorne o reverso de um número inteiro informado. Por exemplo: 127 -> 721.
 
 def reverso_numero(numero):
@@ -26,6 +27,7 @@ numero_informado = int(input("Digite um número inteiro: "))
 # Chama a função e imprime o reverso
 resultado = reverso_numero(numero_informado)
 print(f"O reverso do número {numero_informado} é {resultado}")
+
 
 # 3. Escreva um script que pergunta ao usuário se ele deseja converter uma temperatura de graus Celsius para Fahrenheit
 # ou vice-versa. Para cada opção, crie uma função. Crie uma terceira, que é um menu para o usuário escolher a opção desejada,

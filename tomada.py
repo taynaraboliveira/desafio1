@@ -9,6 +9,7 @@ else:
   maior = numero2
 print(f"O maior número informado foi: {maior}")
 
+
 # 2. Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno
 #Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
 
@@ -21,7 +22,8 @@ elif turno == "N":
    mensagem = "Boa noite!"
 else:    
    mensagem = "Valor Inválido"
-print(mensagem)    
+print(mensagem)   
+ 
 
 # 3. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e
 # continue pedindo até que o usuário informe um valor válido.

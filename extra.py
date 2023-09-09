@@ -28,6 +28,7 @@ for moeda, taxa in moedas.items():
     valor_convertido = converte_moeda(carteira, taxa)
     print(f"Com {carteira:.2f} reais, você poderia comprar {valor_convertido:.2f} {moeda}.")
 
+
 # 2. Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado e a 
 #quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa 
 #R$80,00 por dia e R$0,20 por km rodado.
@@ -46,6 +47,7 @@ preco_total = custo_km + custo_diaria
 # Imprime o preço a pagar
 print(f"O preço a pagar é R${preco_total:.2f}.")
 
+
 # 3.Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário. 
 #Se o salário for até R$1000,00 o funcionário terá 20% de aumento. Entre R$1001,00 até R$2800,00 
 #o funcionário terá 10% de aumento. Acima de R$2801,00 o funcionário terá 5% de aumento.
@@ -63,6 +65,7 @@ else:
 
 # Imprime o novo salário
 print(f"O novo salário do funcionário é R$ {novo_salario:.2f}")
+
 
 # 4.Crie um programa que tenha a função leiaInt(), que vai funcionar de forma semelhante à função input() do Python,
 # só que fazendo a validação para aceitar apenas um valor numérico. Ex: n = leiaInt('Digite um número: ').
